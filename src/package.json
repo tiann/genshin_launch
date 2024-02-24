@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "npm i && npx parcel build index.html && rm -rf ../webroot && mv dist ../webroot",
+    "clean": "rm -rf dist && rm -rf .parcel-cache"
+  },
+  "dependencies": {
+    "kernelsu": "^1.0.6"
+  }
+}
